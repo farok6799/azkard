@@ -181,7 +181,7 @@
 
         .hero-content h2 {
             font-size: 2.5rem;
-            line-height: 1.2;
+            line-height: 1.6;
             margin-bottom: 1rem;
             color: var(--text-primary);
         }
@@ -189,6 +189,7 @@
         @media (min-width: 768px) {
             .hero-content h2 {
                 font-size: 3.5rem;
+                line-height: 1.5;
             }
         }
 
@@ -358,11 +359,11 @@
         }
 
         .feature-card h4 {
-            color: var(--text-primary);
+            color: var(--text-primary) !important;
         }
 
         .feature-card p {
-            color: var(--text-secondary);
+            color: var(--text-secondary) !important;
         }
 
 
@@ -373,11 +374,9 @@
         .feature-card h4 {
             font-size: 1.25rem;
             margin-bottom: 0.5rem;
-            color: #0f172a;
         }
 
         .feature-card p {
-            color: #64748b;
             font-size: 0.95rem;
         }
 
@@ -640,32 +639,74 @@
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">📖</div>
-                    <h4>مصحف متكامل</h4>
+                    <h4>المصحف الشريف</h4>
                     <p>قراءة مريحة مع خاصية الزوم، البحث الفوري بالتشكيل، وعلامات مرجعية منفصلة للورد والقراءة الحرة.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon">🎓</div>
-                    <h4>نظام الحفظ الذكي</h4>
-                    <p>اختبارات تفاعلية بثلاث مستويات لتثبيت حفظك للقرآن الكريم بطريقة ممتعة.</p>
+                    <div class="feature-icon">🎙️</div>
+                    <h4>تسميع صوتي ذكي</h4>
+                    <p>تكنولوجيا فريدة تقارن تسميعك بنص القرآن بدقة، مع "ذكاء صوتي" يتجاهل تشابه مخارج الحروف (مثل ق/ك) لراحة أكبر.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon">🕌</div>
-                    <h4>مواقيت الصلاة</h4>
-                    <p>تنبيهات دقيقة للأذان وبوصلة متطورة لتحديد اتجاه القبلة في أي مكان.</p>
+                    <div class="feature-icon">🔒</div>
+                    <h4>نظام القفل والملاحقة</h4>
+                    <p>ثبت الميكروفون بضغطة واحدة وقصيرة للتسميع المتواصل؛ سيقوم التطبيق بملاحقة نطقك وملء الفراغات تلقائياً فور نطقك الصحيح.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">�</div>
+                    <h4>ثلاثة مستويات للاختبار</h4>
+                    <p>تدرج في الحفظ عبر 3 مراحل: إكمال الكلمات، ترتيب كلمات الآية، والتسميع الكامل (غيباً) لضمان رسوخ الحفظ.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"></div>
+                    <h4>حفظ واستئناف التقدم</h4>
+                    <p>لا تقلق من ضياع وقتك؛ يمكنك حفظ جلسة الاختبار في أي لحظة والعودة لاستكمالها لاحقاً من نفس الكلمة التي توقفت عندها.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h4>كيبورد قرآنية مخصصة</h4>
+                    <p>لوحة مفاتيح عربية مدمجة تدعم كافة حروف ورموز المصحف، لتجربة كتابة سريعة دون الحاجة لكيبورد الهاتف التقليدية.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌙</div>
+                    <h4>السنن الرواتب والروتين</h4>
+                    <p>تتبع دقيق لصلوات السنن اليومية (12 ركعة) لضمان بناء بيتك في الجنة، مع عداد ذكي لكل صلاة.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🧭</div>
+                    <h4>القبلة والمواقيت</h4>
+                    <p>بوصلة حساسة للغاية تنبهك لوضعية الهاتف الصحيحة، مع نظام أذان وتنبيهات دقيق يعمل حتى في وضع السكون.</p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">📿</div>
-                    <h4>سبحة إلكترونية</h4>
-                    <p>سبحة تفاعلية بمؤثرات حركية واهتزاز، مع إمكانية إضافة أذكار مخصصة وتغيير ألوان الحبات.</p>
+                    <h4>موسوعة الأذكار</h4>
+                    <p>مكتبة شاملة ومتجددة تضم أذكار الصباح والمساء، النوم، الاستيقاظ، السفر، والرقية الشرعية.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon">🕌</div>
-                    <h4>السنن الرواتب</h4>
-                    <p>تتبع لصلوات السنن اليومية مع عداد للركعات لضمان المحافظة على ثنتي عشرة ركعة.</p>
+                    <div class="feature-icon">📿</div>
+                    <h4>سبحة الألوان التفاعلية</h4>
+                    <p>سبحة إلكترونية بمؤثرات فيزيائية حقيقية، مع إمكانية تخصيص لون الحبات وإضافة أذكار خاصة بك.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📶</div>
+                    <h4>ذكاء العمل أوفلاين</h4>
+                    <p>التطبيق مصمم ليعمل بكفاءة بدون إنترنت، بما في ذلك محرك التسميع الصوتي (عند توفر حزمة اللغة) لخصوصية وسرعة مطلقة.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h4>عن القرآن</h4>
+                    <p>مرجع شامل لعلامات الوقف في المصحف وأحكام التجويد الأساسية، لمساعدتك على فهم وتلاوة القرآن الكريم بشكل صحيح.</p>
                 </div>
             </div>
         </div>
@@ -730,14 +771,14 @@
                 <div class="footer-section">
                     <h4>تواصل معنا</h4>
                     <ul>
-                        <li><a href="https://wa.me/201129729147" target="_blank">واتساب</a></li>
+                        <li><a href="https://wa.me/201129729164" target="_blank">واتساب</a></li>
                         <li><a href="https://www.instagram.com/far0k6799/" target="_blank">إنستجرام</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>© 2026 عِبَادُ الرَّحْمَنِ. جميع الحقوق محفوظة</p>
+                <p>© 2026 عِبَادُ الرَّحْمَنِ. By Mostafa Soft. جميع الحقوق محفوظة</p>
             </div>
         </div>
     </footer>
